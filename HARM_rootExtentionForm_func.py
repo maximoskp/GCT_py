@@ -40,5 +40,5 @@ def HARM_rootExtentionForm(shortest, chExtentions):
         j = notation[i][2]< np.max(notation[i][1])
         notation[i][2][j] = notation[i][2][j]+12'''
     
-    print("Chord: ", notation)
+    # print("Chord: ", notation)
     return(notation)

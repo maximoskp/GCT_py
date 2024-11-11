@@ -17,7 +17,7 @@ import numpy as np
 
 #HARM_consonanceChordRecognizer(c,consWeights) function
 
-def HARM_consonanceChordRecognizer(chord, consWeights):
+def HARM_consonanceChordRecognizer(chord, consWeights=[1,0,0,1,1,1,0,1,1,1,0,0]):
     modChord = [i % 12 for i in chord] #modulo 12 to chord list to take the pitch classes
     m = np.unique(modChord) #take only unique values
     #print("Pitches: ", m)
