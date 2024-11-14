@@ -6,12 +6,12 @@ Created on Wed Feb 28 14:58:13 2018
 """
 
 #from HARM_traverseOrbit_func import HARM_traverseOrbit
-from HARM_findSubsets_func import HARM_findSubsets
-from HARM_findConsonantSequencesOfSubsets_func import HARM_findConsonantSequencesOfSubsets
-from HARM_findMaximalConsonantSubsets_func import HARM_findMaximalConsonantSubsets
-from HARM_findExtentions_func import HARM_findExtentions
-from HARM_shortestFormOfSubsets_func import HARM_shortestFormOfSubsets
-from HARM_rootExtentionForm_func import HARM_rootExtentionForm
+from .HARM_findSubsets_func import HARM_findSubsets
+from .HARM_findConsonantSequencesOfSubsets_func import HARM_findConsonantSequencesOfSubsets
+from .HARM_findMaximalConsonantSubsets_func import HARM_findMaximalConsonantSubsets
+from .HARM_findExtentions_func import HARM_findExtentions
+from .HARM_shortestFormOfSubsets_func import HARM_shortestFormOfSubsets
+from .HARM_rootExtentionForm_func import HARM_rootExtentionForm
 #from HARM_shortestFormOfSubsets_func import normalOrderInversion
 import numpy as np
 
